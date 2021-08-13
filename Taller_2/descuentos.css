@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-image: url("../Taller_1/jj-ying-7JX0-bfiuxQ-unsplash (1).jpg");
+}
+
+header {
+  border-bottom: 5px solid #030303;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+header h1 {
+  font-size: 5rem;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 5px;
+  margin: 5px;
+}
+header p {
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bree Serif", serif;
+  font-size: 2rem;
+  color: black;
+}
+.container h2 {
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+.container .container__precio {
+  background-color: rgba(151, 151, 151, 0.5);
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: 10px 20px;
+  padding: 30px;
+}
+.container .container__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .container__form label, .container .container__form input, .container .container__form select, .container .container__form button, .container .container__form p {
+  text-align: center;
+  margin: 1.6rem;
+  padding: 10px;
+}
+.container .container__form label {
+  font-size: 2rem;
+}
+.container .container__form input, .container .container__form select, .container .container__form button {
+  border-radius: 5px;
+  border: none;
+}
+.container .container__form input:focus {
+  outline: none;
+}
+.container .container__form button:hover {
+  background-color: white;
+  -webkit-box-shadow: 11px 11px 29px -1px #000000;
+  box-shadow: 11px 11px 29px -1px #494949;
+}
+
+/*# sourceMappingURL=descuentos.css.map */
